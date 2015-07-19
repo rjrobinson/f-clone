@@ -1,0 +1,28 @@
+/* Forum goers are so picky! Here's their exclusions from the standard CSS. */
+
+body { background-image: none; }
+
+#topnav { }
+#content { margin-right: 0; }
+
+#content h5, #content h6 {
+	font-size: 11px;
+	margin: 0;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+#content h5 { float: left; }
+#content h6 { text-align: right; }
+.small { font-size: 11px; color: #000; font-weight: normal; }
+
+.post_body img {
+	max-width: 100%;
+	.post_body img {
+    max-width: 100%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";}}
