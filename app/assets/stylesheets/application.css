@@ -12,6 +12,7 @@
  *
  *= require rylee
  *= require forum
+ *= require flash_msg
  *= require_tree .
  *= require_self
  */
